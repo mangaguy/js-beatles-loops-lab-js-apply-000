@@ -1,7 +1,7 @@
 // add solution here
 
 function theBeatlesPlay(musicians, instruments) {
-  var emptyArray = [];
+  var emptyArray = []
   for (var i = 0; i < musicians.length; i++) {
     var sentence = musicians[i] + " plays " + instruments[i]
     emptyArray.push(sentence)
@@ -10,9 +10,9 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  var johnLennonArray = [];
+  var johnLennonArray = []
+  var i = 0
   while (i < facts.length) {
-    var i = 0
     johnLennonArray.push(facts[i]+"!!!")
     i++
   }
