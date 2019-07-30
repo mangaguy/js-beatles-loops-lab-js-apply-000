@@ -18,3 +18,8 @@ function johnLennonFacts(facts) {
   }
   return johnLennonArray
 }
+
+function iLoveTheBeatles(num) {
+  var emptyArray = []
+  
+}
